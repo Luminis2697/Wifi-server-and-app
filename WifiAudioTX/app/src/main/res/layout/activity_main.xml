@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Lista de servidores -->
+    <Spinner
+        android:id="@+id/server_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <!-- Botón de actualizar servidores -->
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar servidores" />
+
+    <!-- Estado de selección -->
+    <TextView
+        android:id="@+id/selection_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servidor seleccionado: ninguno"
+        android:textSize="14sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Estado de conexión -->
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado: Desconectado"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Botón Iniciar -->
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar transmisión"
+        android:enabled="false" />
+
+    <!-- Botón Detener -->
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detener transmisión"
+        android:enabled="false" />
+
+</LinearLayout>

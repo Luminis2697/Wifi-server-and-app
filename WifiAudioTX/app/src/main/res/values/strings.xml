@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wifi-AudioTX</string>
+    <string name="status_waiting">Servidor en espera...</string>
+    <string name="status_connected">Conectado</string>
+    <string name="btn_start">Iniciar transmisión</string>
+    <string name="btn_stop">Detener transmisión</string>
+    <string name="btn_refresh">Actualizar servidores</string>
+</resources>
